@@ -1,4 +1,9 @@
 <?php
+if(!isset($_COOKIE['logged'])) {
+  header( 'Location: /view/login/index.php' ) ;
+} 
+?> 
+<?php
 require_once('../../../include/db.php');
 require_once('../../../include/post/post.php');
 ?>

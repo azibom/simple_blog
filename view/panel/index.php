@@ -1,8 +1,8 @@
 <?php
 if(!isset($_COOKIE['logged'])) {
-  header( 'Location: ../login/index.php' ) ;
+  header( 'Location: /view/login/index.php' ) ;
 } 
-?> 
+?>  
 <center>
 <h1>admin panel</h1>
 <h2><a href="../../../include/login/signout.php">signout</a><h2><br>
